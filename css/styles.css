@@ -1,0 +1,154 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    color: #40514E;
+}
+
+h1{
+    font-size: 5.625rem;
+    margin-top: 50 auto 0 auto;
+    font-family: 'Lobster', cursive;
+    color: #66BFBF;
+    line-height: 2;
+}
+
+h2{
+    font-family: 'Jost', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3{
+    font-family: 'Jost', sans-serif;
+    color: #11999E;
+}
+
+p{
+    line-height: 2;
+}
+
+hr{
+    border: dotted #D3DEDC 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+   }
+
+   a{
+    color: #11999E;
+    font-family: 'Jost', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+   }
+
+   a:hover{
+    color: #eaf6f6;
+   }
+
+.top-container{
+    background-color: #FBF8F1;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container{
+    margin: 100px 0;
+}
+
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+}
+
+.pro{
+    text-decoration: underline;
+}
+
+.quo{
+    width: 30%;
+    margin: auto;
+}
+
+.contact-message{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+
+.botton-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.copyright{
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+.technologies{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.filmmaker{
+    width: 25%;
+    float: right;
+    margin-right: 30px;
+}
+
+.myself{
+    background-size: cover;
+    border-radius: 50%;
+}
+
+a.btn{
+    background: linear-gradient(to right,#11cdd4 ,#11999e);
+    background-color: #11cdd4;
+    color: #fff;
+    font-family: Trebuchet MS;
+    font-size: 18px;
+    font-weight: 800;
+    font-style: normal;
+    text-decoration: none;
+    padding: 14px 15px;
+    border: 0px solid #000;
+    border-radius: 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+   }
+   a.btn span{
+    margin-right: 15px;
+    display: block;
+    width: 29px;
+    height: 29px;
+    background-image: url("images/CSS - My Site Images/CSS - My Site Images/llamar.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    transform: rotate(0deg);
+   }
+   a.btn:hover{
+    background: linear-gradient(to right,#52d3d9 ,#52a6aa);
+    background-color: #52d3d9;
+   }
+   a.btn:active{
+    transform: scale(0.95);
+   }
